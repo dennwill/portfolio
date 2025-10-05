@@ -64,8 +64,8 @@ export default function Contact() {
       <div className="mx-auto max-w-3xl px-4 py-30 text-center w-3/4" id="contact-me">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2>
         <p className="mt-4 text-lg text-slate-600">
-          I'd love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free
-          to reach out.
+          I&apos;d love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel
+          free to reach out.
         </p>
 
         <form className="mt-10" onSubmit={handleSubmit}>

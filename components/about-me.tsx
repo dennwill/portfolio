@@ -30,7 +30,7 @@ export default function AboutMe() {
 
             {/* Cards */}
             <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-4 justify-items-center">
-              <Card className="w-full">
+              <Card className="w-full transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
                 <CardHeader className="text-center">
                   <FaCode />
                 </CardHeader>
@@ -39,7 +39,7 @@ export default function AboutMe() {
                   <span className="text-sm">HTML, CSS, JavaScript, React JS, Next JS</span>
                 </CardFooter>
               </Card>
-              <Card className="w-full">
+              <Card className="w-full transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
                 <CardHeader className="text-center">
                   <IoSchoolSharp />
                 </CardHeader>
@@ -48,7 +48,7 @@ export default function AboutMe() {
                   <span className="text-sm">Binus International University</span>
                 </CardFooter>
               </Card>
-              <Card className="w-full">
+              <Card className="w-full transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
                 <CardHeader className="text-center">
                   <FaSuitcase />
                 </CardHeader>

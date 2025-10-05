@@ -1,7 +1,4 @@
-import { MdOutlineWeb } from "react-icons/md";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
-import { IoIosApps } from "react-icons/io";
-import { FaPython } from "react-icons/fa6";
 import { FaGithub, FaShip, FaTasks } from "react-icons/fa";
 import { Badge } from "./ui/badge";
 import { TbPhotoQuestion } from "react-icons/tb";
@@ -12,13 +9,13 @@ import { LuExternalLink } from "react-icons/lu";
 export default function Projects() {
   return (
     <>
-      <div className="flex flex-col items-center min-h-screen py-24" id="projects">
+      <div className="flex flex-col items-center min-h-screen py-30" id="projects">
         <span className="font-semibold text-4xl">My Projects</span>
         <div className="text-center flex-1 w-11/12 max-w-6xl md:text-lg text-sm leading-9 py-6">
           <span>Throughout my two years of higher-level study, these are some of the projects I have worked on:</span>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-8 justify-items-center">
-            <Card className="md:w-full w-3/4">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center">
                 <FaShip size={64} />
               </CardHeader>
@@ -46,7 +43,7 @@ export default function Projects() {
                 </Button>
               </CardFooter>
             </Card>
-            <Card className="md:w-full w-3/4">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center">
                 <TbPhotoQuestion size={64} />
               </CardHeader>
@@ -72,7 +69,7 @@ export default function Projects() {
                 </Button>
               </CardFooter>
             </Card>
-            <Card className="md:w-full w-3/4">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center">
                 <FaTasks size={64} />
               </CardHeader>
