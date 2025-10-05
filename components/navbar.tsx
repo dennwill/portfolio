@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`flex flex-row border-b gap-6 py-8 text-center justify-center flex fixed top-0 w-full bg-white/70 backdrop-blur-xs filter drop-shadow-md z-10 ${jost.className}`}
+        className={`flex flex-row border-b gap-6 py-8 text-center justify-center flex fixed top-0 w-full bg-white/70 backdrop-blur-xs filter drop-shadow-md z-20 ${jost.className}`}
       >
         <Link href="/#home" className="hover:text-sky-500 transition-colors">
           Home
