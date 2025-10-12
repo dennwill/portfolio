@@ -3,6 +3,7 @@ import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 import { IoSchoolSharp } from "react-icons/io5";
 import { FaSuitcase } from "react-icons/fa";
 import Image from "next/image";
+
 export default function AboutMe() {
   return (
     <>
