@@ -5,6 +5,8 @@ import { TbPhotoQuestion } from "react-icons/tb";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { LuExternalLink } from "react-icons/lu";
+import { FaGlobe } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -17,7 +19,36 @@ export default function Projects() {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-8 justify-items-center">
             <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center">
-                <FaShip size={64} />
+                <Image src="/transporindo.png" alt="Transporindo Home Page" width={350} height={200} />
+              </CardHeader>
+              <CardContent>
+                <span className="font-semibold">Transporindo</span>
+                <p className="text-justify text-sm leading-8">
+                  A CMS-powered, bilingual, and smoothly-animated SPA (Single-page Application) logistics website that I
+                  made for my freelancing work.
+                </p>
+              </CardContent>
+              <CardFooter className="flex flex-wrap items-center w-full">
+                <span className="text-left font-semibold mr-2">Tech Stack:</span>
+                <div>
+                  <Badge className="m-1">NextJS</Badge>
+                  <Badge className="m-1">TypeScript</Badge>
+                  <Badge className="m-1">Sanity</Badge>
+                  <Badge className="m-1">TailwindCSS</Badge>
+                  <Badge className="m-1">Framer Motion</Badge>
+                </div>
+                <Button className="mt-16" variant="outline" size="sm">
+                  <FaGlobe />
+                  <Link href="https://www.transporindo.id">Visit Website</Link>
+                  <LuExternalLink />
+                </Button>
+                {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
+              </CardFooter>
+            </Card>
+
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+              <CardHeader className="justify-center">
+                <Image src="/docking-tracker.png" alt="Transporindo Home Page" width={350} height={200} />
               </CardHeader>
               <CardContent>
                 <span className="font-semibold">Docking Tracker</span>
@@ -35,7 +66,6 @@ export default function Projects() {
                   <Badge className="m-1">Tailwind CSS</Badge>
                   <Badge className="m-1">Supabase</Badge>
                 </div>
-
                 <Button className="mt-4" variant="outline" size="sm">
                   <FaGithub />
                   <Link href="https://github.com/dennwill/docking-tracker">Go to GitHub</Link>
@@ -43,9 +73,10 @@ export default function Projects() {
                 </Button>
               </CardFooter>
             </Card>
+
             <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center">
-                <TbPhotoQuestion size={64} />
+                <Image src="/missing-imgbatch-checker.png" alt="Transporindo Home Page" width={350} height={200} />
               </CardHeader>
               <CardContent>
                 <span className="font-semibold">IMGBatch Checker</span>
@@ -67,31 +98,6 @@ export default function Projects() {
                   <Link href="https://github.com/dennwill/missing-imgbatch-checker">Go to GitHub</Link>
                   <LuExternalLink />
                 </Button>
-              </CardFooter>
-            </Card>
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
-              <CardHeader className="justify-center">
-                <FaTasks size={64} />
-              </CardHeader>
-              <CardContent>
-                <span className="font-semibold">To-do list</span>
-                <p className="text-justify text-sm leading-8">
-                  A React JS to-do list web application that allows users to add, edit, and delete tasks.
-                </p>
-              </CardContent>
-              <CardFooter className="flex flex-wrap items-center w-full">
-                <span className="text-left font-semibold mr-2">Tech Stack:</span>
-                <div>
-                  <Badge className="m-1">React</Badge>
-                  <Badge className="m-1">Firebase</Badge>
-                  <Badge className="m-1">Vite</Badge>
-                </div>
-                <Button className="mt-16" variant="outline" size="sm">
-                  <FaGithub />
-                  <Link href="https://github.com/dennwill/to-do-list-app">Go to GitHub</Link>
-                  <LuExternalLink />
-                </Button>
-                {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
               </CardFooter>
             </Card>
           </div>
