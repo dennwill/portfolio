@@ -29,7 +29,7 @@ export default function Footers() {
 
         <div className="md:hidden flex flex-col gap-4 px-4 py-6">
           <div className="text-center">
-            <span className="text-xs sm:text-sm">© 2025 Dennis William</span>
+            <span className="text-xs sm:text-sm">© 2026 Dennis William</span>
           </div>
 
           <Separator />
