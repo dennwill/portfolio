@@ -21,7 +21,7 @@ export default function AboutMe() {
               className="rounded-xl filter drop-shadow-lg"
             />
           </div>
-          <div className="flex-1 text-justify w-3/4 max-w-4xl md:text-lg text-sm leading-9">
+          <div className="flex-1 text-left w-3/4 max-w-4xl md:text-lg text-sm leading-9">
             <span>
               My name is Dennis William. I am currently pursuing Bachelors of Computer Science in BINUS International
               University as well as Software Engineering Degree in La Trobe University, with hands-on experience in

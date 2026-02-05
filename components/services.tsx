@@ -20,7 +20,7 @@ export default function Services() {
               </CardHeader>
               <CardContent className="font-semibold">Full-Stack CRUD Web Application </CardContent>
               <CardFooter>
-                <p className="text-justify text-sm leading-8">
+                <p className="text-center text-sm leading-8">
                   I can develop a complete web application with Create, Read, Update, and Delete (CRUD) functionality.
                 </p>
               </CardFooter>
@@ -31,7 +31,7 @@ export default function Services() {
               </CardHeader>
               <CardContent className="font-semibold">Landing Page Development</CardContent>
               <CardFooter>
-                <p className="text-justify text-sm leading-8">
+                <p className="text-center text-sm leading-8">
                   I can create a visually appealing and responsive landing page to showcase your product, service, or
                   event.
                 </p>
@@ -43,7 +43,7 @@ export default function Services() {
               </CardHeader>
               <CardContent className="font-semibold">Custom Scripting and Automation</CardContent>
               <CardFooter>
-                <p className="text-justify text-sm leading-8">
+                <p className="text-center text-sm leading-8">
                   I can write custom scripts to automate repetitive tasks, streamline workflows, and improve efficiency.
                 </p>
               </CardFooter>
