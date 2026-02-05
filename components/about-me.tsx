@@ -67,7 +67,7 @@ export default function AboutMe() {
                 </CardHeader>
                 <CardContent className="text-center font-semibold text-lg">Projects</CardContent>
                 <CardFooter className="justify-center pb-6">
-                  <span className="text-sm text-gray-600 text-center">Built more than 3 projects</span>
+                  <span className="text-sm text-gray-600 text-center">Built more than 5 projects</span>
                 </CardFooter>
               </Card>
             </div>
