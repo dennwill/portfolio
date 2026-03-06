@@ -14,7 +14,7 @@ export default function Services() {
           </span>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-8 justify-items-center">
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
                 <IoIosApps size={64} />
               </CardHeader>
@@ -25,7 +25,7 @@ export default function Services() {
                 </p>
               </CardFooter>
             </Card>
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
                 <MdOutlineWeb size={64} />
               </CardHeader>
@@ -37,7 +37,7 @@ export default function Services() {
                 </p>
               </CardFooter>
             </Card>
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
                 <FaPython size={64} />
               </CardHeader>

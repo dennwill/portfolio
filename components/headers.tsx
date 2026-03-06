@@ -11,44 +11,50 @@ export default function Headers() {
   return (
     <>
       <div
-        className="relative flex flex-col items-center justify-center min-h-screen py-2 overflow-hidden bg-white"
+        className="relative flex flex-col items-center justify-center min-h-screen py-2 overflow-hidden bg-white dark:bg-gray-950"
         id="home"
       >
         <div aria-hidden="true" className="absolute inset-0 z-0">
           {/*A soft blue circle */}
-          <div className="absolute top-64 left-24 w-96 h-96 bg-blue-100 rounded-full opacity-70 blur-3xl"></div>
+          <div className="absolute top-64 left-24 w-96 h-96 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
         </div>
 
         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
-          <Image
-            src="/me2.jpg"
-            alt="Dennis William"
-            width={200}
-            height={200}
-            style={{ borderRadius: "50%", objectFit: "cover" }}
-            className="shadow-lg animate__animated animate__fadeInDown"
-          />
-          <h1 className="font-semibold text-2xl mt-4 animate__animated animate__fadeInDown animate__delay-1s">
+          <div className="p-[3px] rounded-full dark:bg-white drop-shadow-xl animate__animated animate__fadeInDown">
+            <Image
+              src="/me2.jpg"
+              alt="Dennis William"
+              width={200}
+              height={200}
+              className="rounded-full object-cover border-none"
+              style={{ display: "block" }}
+            />
+          </div>
+          <h1 className="font-bold text-2xl mt-4 animate__animated animate__fadeInDown animate__delay-1s">
             Hi, I&apos;m Dennis William
           </h1>
           <h3
-            className={`text-2xl md:text-4xl mt-4 ${jost.className} animate__animated animate__fadeInDown animate__delay-2s`}
+            className={`font-light text-2xl md:text-4xl mt-4 ${"jost.className"} animate__animated animate__fadeInDown animate__delay-2s`}
           >
             Aspiring Software Engineering Undergraduate <br />
             based in Indonesia.
           </h3>
-          <span className="text-slate-600 mt-4 md:text-sm text-xs max-w-lg animate__animated animate__fadeInDown animate__delay-3s">
+          <span className="text-slate-500 mt-4 md:text-sm text-xs max-w-lg animate__animated animate__fadeInDown animate__delay-3s">
             I am a computer science student and a software engineer enthusiast with a year of experience in web
             development.
           </span>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8 animate__animated animate__fadeIn animate__delay-4s">
-            <Button variant="default" size="lg">
+            <Button variant="default" size="lg" className="cursor-pointer">
               <Link href="/#contact-me">Contact me ↗</Link>
             </Button>
-            <Button variant="outline" size="lg">
-              <a href="/CV.pdf" download="Dennis William - CV" className="flex items-center justify-center gap-3">
+            <Button variant="outline" size="lg" className="cursor-pointer">
+              <a
+                href="/Dennis William - CV.pdf"
+                download="Dennis William - CV"
+                className="flex items-center justify-center gap-3"
+              >
                 Download my CV <FaDownload />
               </a>
             </Button>
