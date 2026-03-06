@@ -7,7 +7,9 @@ import { Button } from "./ui/button";
 import { LuExternalLink } from "react-icons/lu";
 import { FaGlobe, FaHeart, FaStar, FaVuejs } from "react-icons/fa6";
 import Image from "next/image";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiVite } from "react-icons/si";
 
 export default function Projects() {
   return (
@@ -18,44 +20,51 @@ export default function Projects() {
           <span>Throughout my two years of higher-level study, these are some of the projects I have worked on:</span>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-8 justify-items-center">
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
                 <Badge className="bg-red-500 text-white hover:bg-red-600 font-semibold">
                   <FaHeart /> Personal Favorite
                 </Badge>
                 <Image
-                  src="/suspicious-link-generator.png"
-                  alt="Suspicious Link Generator Screenshot"
+                  src="/patungan.png"
+                  alt="Patungan Screenshot"
                   width={350}
                   height={200}
-                  className="pt-2 rounded-xl shadow-lg"
+                  className="rounded-xl shadow-lg"
                 />
               </CardHeader>
               <CardContent>
-                <span className="font-semibold">Suspicious Link Generator</span>
+                <span className="font-semibold">Patungan</span>
                 <p className="text-center text-sm leading-8">
-                  A website to generate sketchy-looking URLs quick. Made just for fun!
+                  A stateless and modern split-billing web app that allows users to split the receipt with ease.
                 </p>
               </CardContent>
               <CardFooter className="flex flex-wrap items-center w-full">
-                <span className="text-left font-semibold mr-2">Tech Stack:</span>
+                <span className="text-left font-semibold mr-2 ">Tech Stack:</span>
                 <div>
                   <Badge className="m-1">
                     <FaVuejs />
                     VueJS
                   </Badge>
-                  <Badge className="m-1">CSS</Badge>
+                  <Badge className="m-1">Pinia</Badge>
+                  <Badge className="m-1">
+                    <SiVite />
+                    Vite
+                  </Badge>
+                  <Badge className="m-1">
+                    <RiTailwindCssFill />
+                    TailwindCSS
+                  </Badge>
                 </div>
-                <Button className="mt-16" variant="outline" size="sm">
+                <Button className="mt-10" variant="outline" size="sm">
                   <FaGithub />
-                  <Link href="https://github.com/dennwill/suspicious-link-generator">Go To GitHub</Link>
+                  <Link href="https://github.com/dennwill/wisp">Go to GitHub</Link>
                   <LuExternalLink />
                 </Button>
-                {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
               </CardFooter>
             </Card>
 
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
                 <Badge className="bg-yellow-500 text-white hover:bg-yellow-600 font-semibold">
                   <FaStar /> Commercial Project
@@ -96,7 +105,41 @@ export default function Projects() {
               </CardFooter>
             </Card>
 
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
+              <CardHeader className="justify-center pt-8">
+                <Image
+                  src="/suspicious-link-generator.png"
+                  alt="Suspicious Link Generator Screenshot"
+                  width={350}
+                  height={200}
+                  className="pt-2 rounded-xl shadow-lg"
+                />
+              </CardHeader>
+              <CardContent>
+                <span className="font-semibold">Suspicious Link Generator</span>
+                <p className="text-center text-sm leading-8">
+                  A website to generate sketchy-looking URLs quick. Made just for fun!
+                </p>
+              </CardContent>
+              <CardFooter className="flex flex-wrap items-center w-full">
+                <span className="text-left font-semibold mr-2">Tech Stack:</span>
+                <div>
+                  <Badge className="m-1">
+                    <FaVuejs />
+                    VueJS
+                  </Badge>
+                  <Badge className="m-1">CSS</Badge>
+                </div>
+                <Button className="mt-16" variant="outline" size="sm">
+                  <FaGithub />
+                  <Link href="https://github.com/dennwill/suspicious-link-generator">Go To GitHub</Link>
+                  <LuExternalLink />
+                </Button>
+                {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
+              </CardFooter>
+            </Card>
+
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
                   src="/wisp.png"
@@ -120,7 +163,10 @@ export default function Projects() {
                     <FaVuejs />
                     VueJS
                   </Badge>
-                  <Badge className="m-1">Supabase</Badge>
+                  <Badge className="m-1">
+                    <RiSupabaseFill />
+                    Supabase
+                  </Badge>
                 </div>
                 <Button className="mt-10" variant="outline" size="sm">
                   <FaGithub />
@@ -130,7 +176,7 @@ export default function Projects() {
               </CardFooter>
             </Card>
 
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
                   src="/docking-tracker.png"
@@ -154,10 +200,22 @@ export default function Projects() {
                     <RiNextjsFill />
                     NextJS
                   </Badge>
-                  <Badge className="m-1">TypeScript</Badge>
-                  <Badge className="m-1">React</Badge>
-                  <Badge className="m-1">Tailwind CSS</Badge>
-                  <Badge className="m-1">Supabase</Badge>
+                  <Badge className="m-1">
+                    <RiReactjsFill />
+                    React
+                  </Badge>
+                  <Badge className="m-1">
+                    <BiLogoTypescript />
+                    TypeScript
+                  </Badge>
+                  <Badge className="m-1">
+                    <RiTailwindCssFill />
+                    Tailwind CSS
+                  </Badge>
+                  <Badge className="m-1">
+                    <RiSupabaseFill />
+                    Supabase
+                  </Badge>
                 </div>
                 <Button className="mt-4" variant="outline" size="sm">
                   <FaGithub />
@@ -167,7 +225,7 @@ export default function Projects() {
               </CardFooter>
             </Card>
 
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            {/* <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
               <CardHeader className="justify-center pt-8">
                 <Image
                   src="/missing-imgbatch-checker.png"
@@ -197,9 +255,9 @@ export default function Projects() {
                   <LuExternalLink />
                 </Button>
               </CardFooter>
-            </Card>
+            </Card> */}
 
-            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50">
+            <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
                   src="/genomic-dashboard.png"
