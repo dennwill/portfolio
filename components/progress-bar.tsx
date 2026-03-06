@@ -20,7 +20,7 @@ export default function ProgressBar() {
   return (
     <div className="fixed top-0 left-0 right-0 h-1 bg-gray-200 dark:bg-gray-800 z-50">
       <div
-        className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 transition-all duration-300 ease-out"
+        className="h-full bg-gradient-to-r from-[#ff6b6b] via-[#ee9ca7] to-[#d3a6ff] dark:from-[#f06292] dark:via-[#ba68c8] dark:to-[#9575cd] transition-all duration-300 ease-out"
         style={{ width: `${scrollProgress}%` }}
       ></div>
     </div>
