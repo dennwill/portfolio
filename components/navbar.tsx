@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ThemeToggle } from "./theme-toggle";
 import { MobileMenu } from "./mobile-menu";
 
-const jost = Jost({ subsets: ["latin"], weight: ["400", "700"] });
+// const jost = Jost({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function Navbar() {
   const links = [
@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full bg-white/70 dark:bg-gray-950/70 backdrop-blur-xs filter drop-shadow-md z-20 border-b dark:border-gray-800 text-black dark:text-white transition-colors ${jost.className}`}
+      className={`fixed top-0 w-full bg-white/70 dark:bg-gray-950/70 backdrop-blur-xs filter drop-shadow-md z-20 border-b dark:border-gray-800 text-black dark:text-white transition-colors`}
     >
       <div className="hidden md:flex flex-row gap-6 py-8 text-center justify-center px-4 items-center">
         {links.map((link) => (

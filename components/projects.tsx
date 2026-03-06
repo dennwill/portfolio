@@ -56,9 +56,9 @@ export default function Projects() {
                     TailwindCSS
                   </Badge>
                 </div>
-                <Button className="mt-10" variant="outline" size="sm">
+                <Button className="cursor-pointer mt-10" variant="outline" size="sm">
                   <FaGithub />
-                  <Link href="https://github.com/dennwill/wisp">Go to GitHub</Link>
+                  <Link href="https://github.com/dennwill/patungan">Go to GitHub</Link>
                   <LuExternalLink />
                 </Button>
               </CardFooter>
@@ -96,7 +96,7 @@ export default function Projects() {
                   <Badge className="m-1">TailwindCSS</Badge>
                   <Badge className="m-1">Framer Motion</Badge>
                 </div>
-                <Button className="mt-16" variant="outline" size="sm">
+                <Button className="mt-16 cursor-pointer" variant="outline" size="sm">
                   <FaGlobe />
                   <Link href="https://www.transporindo.id">Visit Website</Link>
                   <LuExternalLink />
@@ -130,12 +130,11 @@ export default function Projects() {
                   </Badge>
                   <Badge className="m-1">CSS</Badge>
                 </div>
-                <Button className="mt-16" variant="outline" size="sm">
+                <Button className="mt-16 cursor-pointer" variant="outline" size="sm">
                   <FaGithub />
                   <Link href="https://github.com/dennwill/suspicious-link-generator">Go To GitHub</Link>
                   <LuExternalLink />
                 </Button>
-                {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
               </CardFooter>
             </Card>
 
@@ -168,7 +167,7 @@ export default function Projects() {
                     Supabase
                   </Badge>
                 </div>
-                <Button className="mt-10" variant="outline" size="sm">
+                <Button className="mt-10 cursor-pointer" variant="outline" size="sm">
                   <FaGithub />
                   <Link href="https://github.com/dennwill/wisp">Go to GitHub</Link>
                   <LuExternalLink />
@@ -217,7 +216,7 @@ export default function Projects() {
                     Supabase
                   </Badge>
                 </div>
-                <Button className="mt-4" variant="outline" size="sm">
+                <Button className="mt-4 cursor-pointer" variant="outline" size="sm">
                   <FaGithub />
                   <Link href="https://github.com/dennwill/docking-tracker">Go to GitHub</Link>
                   <LuExternalLink />
@@ -282,7 +281,7 @@ export default function Projects() {
                   </Badge>
                   <Badge className="m-1">Flask</Badge>
                 </div>
-                <Button className="mt-16" variant="outline" size="sm">
+                <Button className="mt-16 cursor-pointer" variant="outline" size="sm">
                   <FaGithub />
                   <Link href="https://github.com/bunleaps/genomic-visualization-dashboard">Go To GitHub</Link>
                   <LuExternalLink />
