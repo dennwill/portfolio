@@ -52,11 +52,14 @@ export default function Projects() {
                   <Badge className="m-1">TailwindCSS</Badge>
                   <Badge className="m-1">Framer Motion</Badge>
                 </div>
-                <Button className="mt-16 cursor-pointer" variant="outline" size="sm">
-                  <FaGlobe />
-                  <Link href="https://www.transporindo.id">Visit Website</Link>
-                  <LuExternalLink />
-                </Button>
+                <div className="mt-16 flex flex-wrap items-center gap-3">
+                  <Button className="cursor-pointer" variant="outline" size="sm">
+                    <FaGlobe />
+                    <Link href="https://www.transporindo.id">Visit Website</Link>
+                    <LuExternalLink />
+                  </Button>
+                  <span className="text-xs text-slate-500 italic">Repository is private</span>
+                </div>
                 {/* NextJS, React, Tailwind CSS, NodeJS, Supabase, */}
               </CardFooter>
             </Card>
@@ -97,11 +100,18 @@ export default function Projects() {
                     TailwindCSS
                   </Badge>
                 </div>
-                <Button className="cursor-pointer mt-10" variant="outline" size="sm">
-                  <FaGithub />
-                  <Link href="https://github.com/dennwill/patungan">Go to GitHub</Link>
-                  <LuExternalLink />
-                </Button>
+                <div className="mt-10 flex flex-wrap gap-2">
+                  <Button className="cursor-pointer" variant="outline" size="sm">
+                    <FaGithub />
+                    <Link href="https://github.com/dennwill/patungan">Go to GitHub</Link>
+                    <LuExternalLink />
+                  </Button>
+                  <Button className="cursor-pointer" variant="outline" size="sm">
+                    <FaGlobe />
+                    <Link href="https://patungan.cc">Visit Website</Link>
+                    <LuExternalLink />
+                  </Button>
+                </div>
               </CardFooter>
             </Card>
 
