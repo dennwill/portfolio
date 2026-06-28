@@ -33,24 +33,24 @@ export default function Headers() {
               style={{ display: "block" }}
             />
           </div>
-          <div className="mt-4 flex flex-col items-center px-10 py-10 bg-[radial-gradient(ellipse_closest-side_at_center,_#ffffff_0%,_#ffffff_50%,_transparent_90%)] dark:bg-[radial-gradient(ellipse_closest-side_at_center,_#030712_0%,_#030712_50%,_transparent_90%)]">
+          <div className="flex flex-col items-center px-10 py-10 bg-[radial-gradient(ellipse_closest-side_at_center,_#ffffff_0%,_#ffffff_50%,_transparent_90%)] dark:bg-[radial-gradient(ellipse_closest-side_at_center,_#030712_0%,_#030712_50%,_transparent_90%)]">
             <h1 className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s">
               Hi, I&apos;m Dennis William
             </h1>
             <h3
-              className={`font-light text-2xl md:text-4xl mt-4 ${"jost.className"} animate__animated animate__fadeInDown animate__delay-2s`}
+              className={`font-light text-2xl md:text-4xl mt-4 leading-snug ${"jost.className"} animate__animated animate__fadeInDown animate__delay-2s`}
             >
               Aspiring Software Engineering Undergraduate <br />
               based in Indonesia.
             </h3>
             <span className="text-slate-500 mt-4 md:text-sm text-xs max-w-lg animate__animated animate__fadeInDown animate__delay-3s">
-              I am a computer science student and a software engineer enthusiast with a year of experience in web
-              development.
+              I am a Computer Science student and software engineering enthusiast with over 2 years of experience
+              designing and developing websites, web applications, mobile applications, and software systems.
             </span>
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-8 animate__animated animate__fadeIn animate__delay-4s">
+          <div className="flex flex-col sm:flex-row gap-4 animate__animated animate__fadeIn animate__delay-4s">
             <Button
               variant="default"
               size="lg"
