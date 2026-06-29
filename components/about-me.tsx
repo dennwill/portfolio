@@ -35,7 +35,9 @@ export default function AboutMe() {
                 </CardHeader>
                 <CardContent className="text-center font-semibold text-lg">Languages</CardContent>
                 <CardFooter className="justify-center pb-6">
-                  <span className="text-sm text-slate-500 text-center">HTML, CSS, JavaScript, React JS, Next JS</span>
+                  <span className="text-sm text-slate-500 text-center">
+                    HTML, CSS, JavaScript, TypeScript, React JS, Next JS, Vue JS, React Native, Python{" "}
+                  </span>
                 </CardFooter>
               </Card>
 
@@ -48,7 +50,9 @@ export default function AboutMe() {
                 </CardHeader>
                 <CardContent className="text-center font-semibold text-lg">Education</CardContent>
                 <CardFooter className="justify-center pb-6">
-                  <span className="text-sm text-slate-500 text-center">Binus International University</span>
+                  <span className="text-sm text-slate-500 text-center">
+                    Binus International University <br></br> La Trobe University
+                  </span>
                 </CardFooter>
               </Card>
 
@@ -61,7 +65,9 @@ export default function AboutMe() {
                 </CardHeader>
                 <CardContent className="text-center font-semibold text-lg">Projects</CardContent>
                 <CardFooter className="justify-center pb-6">
-                  <span className="text-sm text-slate-500 text-center">Built more than 5 projects</span>
+                  <span className="text-sm text-slate-500 text-center">
+                    Built <b>10+</b> projects
+                  </span>
                 </CardFooter>
               </Card>
             </div>

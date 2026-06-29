@@ -1,7 +1,7 @@
-import { MdOutlineWeb } from "react-icons/md";
+import { MdRocketLaunch } from "react-icons/md";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
-import { IoIosApps } from "react-icons/io";
-import { FaPython } from "react-icons/fa6";
+import { HiOutlineSparkles } from "react-icons/hi2";
+import { TbAutomation } from "react-icons/tb";
 
 export default function Services() {
   return (
@@ -16,35 +16,37 @@ export default function Services() {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-6 py-8 justify-items-center">
             <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
-                <IoIosApps size={64} />
+                <HiOutlineSparkles size={64} />
               </CardHeader>
-              <CardContent className="font-semibold">Full-Stack CRUD Web Application </CardContent>
+              <CardContent className="font-semibold text-base">AI-Powered Web Applications</CardContent>
               <CardFooter>
                 <p className="text-center text-sm leading-8">
-                  I can develop a complete web application with Create, Read, Update, and Delete (CRUD) functionality.
+                  I build full-stack web apps with intelligence built in — chatbots, semantic search, and generative
+                  features powered by your own data.
                 </p>
               </CardFooter>
             </Card>
             <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
-                <MdOutlineWeb size={64} />
+                <MdRocketLaunch size={64} />
               </CardHeader>
-              <CardContent className="font-semibold">Landing Page Development</CardContent>
+              <CardContent className="font-semibold text-base">High-Converting Landing Pages</CardContent>
               <CardFooter>
                 <p className="text-center text-sm leading-8">
-                  I can create a visually appealing and responsive landing page to showcase your product, service, or
-                  event.
+                  I design blazing-fast, mobile-first landing pages and SaaS sites built to convert visitors and rank on
+                  search.
                 </p>
               </CardFooter>
             </Card>
             <Card className="md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center">
-                <FaPython size={64} />
+                <TbAutomation size={64} />
               </CardHeader>
-              <CardContent className="font-semibold">Custom Scripting and Automation</CardContent>
+              <CardContent className="font-semibold text-base">Workflow Automation &amp; AI Integrations</CardContent>
               <CardFooter>
                 <p className="text-center text-sm leading-8">
-                  I can write custom scripts to automate repetitive tasks, streamline workflows, and improve efficiency.
+                  I connect your tools and wire AI into your existing workflows — automating repetitive work and giving
+                  you your time back.
                 </p>
               </CardFooter>
             </Card>
