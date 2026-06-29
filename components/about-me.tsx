@@ -13,7 +13,7 @@ export default function AboutMe() {
         <div className="flex flex-col md:flex-row justify-center items-center px-6 gap-8 ">
           {/*Image Div*/}
           <div>
-            <ParallaxImage width={250} height={250} src="/me.JPG" alt="A photo of me" />
+            <ParallaxImage width={250} height={250} src="/optimized/me.webp" alt="A photo of me" />
           </div>
           <div className="flex-1 text-center lg:text-left w-3/4 max-w-4xl md:text-lg text-sm leading-9">
             <span>

@@ -25,7 +25,7 @@ export default function Headers() {
         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
           <div className="p-[3px] rounded-full dark:bg-white drop-shadow-xl animate__animated animate__fadeInDown transition-transform duration-300 ease-out hover:scale-110">
             <Image
-              src="/me2.jpg"
+              src="/optimized/me2.webp"
               alt="Dennis William"
               width={200}
               height={200}

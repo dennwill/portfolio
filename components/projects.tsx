@@ -26,7 +26,7 @@ export default function Projects() {
                   <FaStar /> Commercial Project
                 </Badge>
                 <Image
-                  src="/transporindo_new.png"
+                  src="/optimized/transporindo_new.webp"
                   alt="Transporindo Home Page"
                   width={350}
                   height={200}
@@ -69,7 +69,7 @@ export default function Projects() {
                   <FaHeart /> Personal Favorite
                 </Badge>
                 <Image
-                  src="/patungan.png"
+                  src="/optimized/patungan.webp"
                   alt="Patungan Screenshot"
                   width={350}
                   height={200}
@@ -120,7 +120,7 @@ export default function Projects() {
                   <FaGraduationCap /> University Project
                 </Badge>
                 <Image
-                  src="/STEMM.png"
+                  src="/optimized/STEMM.webp"
                   alt="STEMM Screenshot"
                   width={350}
                   height={200}
@@ -167,7 +167,7 @@ export default function Projects() {
             <Card className="h-full md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
-                  src="/suspicious_link_generator.png"
+                  src="/optimized/suspicious_link_generator.webp"
                   alt="Suspicious Link Generator Screenshot"
                   width={350}
                   height={200}
@@ -202,7 +202,7 @@ export default function Projects() {
             <Card className="h-full md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
-                  src="/docking_tracker_new.png"
+                  src="/optimized/docking_tracker_new.webp"
                   alt="Docking Tracker Web App"
                   width={350}
                   height={200}
@@ -252,7 +252,7 @@ export default function Projects() {
             <Card className="h-full md:w-full w-3/4 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-900 dark:border-gray-800">
               <CardHeader className="justify-center pt-8">
                 <Image
-                  src="/genome_visualizer_new.png"
+                  src="/optimized/genome_visualizer_new.webp"
                   alt="Genomic Dashboard"
                   width={350}
                   height={200}
